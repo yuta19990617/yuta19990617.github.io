@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="http://localhost:8888/laravel-posting-app/public/posts">投稿</a></li>
+            <li><a href="#">最新情報</a></li>
+            <li><a href="#">カレンダー</a></li>
+            <li><a href="#">お問合せ</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+      <div class="calendar">
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">
+            <h1></h1>
+            <p></p>
+          </div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+          <div>日</div>
+          <div>月</div>
+          <div>火</div>
+          <div>水</div>
+          <div>木</div>
+          <div>金</div>
+          <div>土</div>
+        </div>
+        <div class="days"></div>
+      </div>
+    </div>
+    <footer class="footer">
+        <ul class="md-flex">
+          <li><a class="foot" href="#">About</a></li>
+          <li><a class="foot" href="#">サイトマップ</a></li>
+          <li><a class="foot" href="#">プライバシーポリシー</a></li>
+        </ul>
+        <p class="copyright">© 2023 Example Inc. All Rights Reserved.</p>
+      </footer>
+
+    <script src="js/calendar.js"></script>
+  </body>
+</html>
